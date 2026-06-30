@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      ul {
+        list-style-type: none;
+        border: 2px solid;
+        /* height: 200px; */
+
+        display: flex;
+        /* justify-content: center; */
+        /* justify-content: end; */
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        justify-content: space-between;
+
+        /* align-items: center; */
+        /* align-items: end; */
+        /* align-items: start; */
+
+        margin: 0 200px;
+        padding: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      /* flexbox => row, column  */
+
+      /* justify => row 
+        align => column  */
+
+      .sidemenu {
+        background-color: #1e1f20;
+        color: white;
+        padding: 10px;
+        width: 300px;
+      }
+      .top {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      button {
+        background-color: #06466e;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="sidemenu">
+      <div class="top">
+        <span>People</span>
+        <i class="fa-solid fa-cross"></i>
+      </div>
+
+      <button><i class="fa-solid fa-person-circle-plus"></i> Add people</button>
+      <form action="">
+        <input type="text" placeholder="Search for people" />
+      </form>
+      <p>IN THE MEETING</p>
+
+      <div class="meet">
+            <div>
+                <span>Contributors</span>
+                <span>8</span>
+                <span>^</span>
+            </div>
+
+            <div>
+                <div class="avatar">
+                    <img src="" alt="">
+                    Aajesh
+                </div> 
+
+            </div>
+
+
+      </div>
+
+
+    </div>
+  </body>
+</html>
